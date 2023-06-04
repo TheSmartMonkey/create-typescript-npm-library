@@ -1,11 +1,11 @@
-# create-typescript-app
+# create-typescript-npm-library
 
-Simple typescript app with jest for small and fast projects
+Simple typescript app with jest to create a npm library with types 
 
 ## Installation
 
 ```sh
-npx degit https://github.com/TheSmartMonkey/create-typescript-app app
+npx degit https://github.com/TheSmartMonkey/create-typescript-npm-library app
 ```
 
 ## Getting started
