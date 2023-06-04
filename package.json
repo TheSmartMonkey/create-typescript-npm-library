@@ -1,7 +1,7 @@
 {
   "name": "create-typescript-npm-library",
   "description": "Simple typescript app with jest to create a npm library with types",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/main.js",
   "scripts": {
     "lint": "eslint src --ext .ts",
