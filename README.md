@@ -1,6 +1,6 @@
 # create-typescript-npm-library
 
-Simple typescript app with jest to create a npm library with types 
+Simple typescript app with jest to create a npm library with types
 
 ## Installation
 
