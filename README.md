@@ -29,6 +29,12 @@ build
   tsc
 ```
 
+## Publish your library
+
+```sh
+npm run pub
+```
+
 ## Folder tree
 
 ```
