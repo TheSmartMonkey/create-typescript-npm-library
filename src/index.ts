@@ -1,3 +1,5 @@
-import { httpMessage, inc, message } from '@functions/hello';
+// Functions
+export * from '@functions/hello';
 
-export { httpMessage, inc, message };
+// Models
+export * from '@models/hello.model';
