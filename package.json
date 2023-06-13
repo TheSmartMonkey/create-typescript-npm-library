@@ -1,7 +1,7 @@
 {
   "name": "create-typescript-npm-library",
   "description": "Simple typescript app with jest to create a npm library with types",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
