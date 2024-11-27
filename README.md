@@ -12,28 +12,29 @@ npx degit https://github.com/TheSmartMonkey/create-typescript-npm-library app
 
 1. Install nodejs : https://nodejs.org/en/
 
-1. Install node_modules with `npm install`
+2. Install node_modules with `npm install`
 
-1. Avalable commands with `npm run` (`npm run start` runes your code from `main.ts`)
+3. Available commands with `npm run` (`npm start` runs your code from `main.ts`)
 
+## Running Tests
+
+To run the tests for your library, use the following command:
+
+```sh
+npm run test
 ```
-start
-  npm run build && node dist/main.js
-test
-  jest
-lint
-  eslint src --ext .ts
-clear
-  rmdir /s "dist"
-build
-  tsc
-```
+
+This will execute all test files using Jest.
 
 ## Publish your library
+
+To publish your library to npm, use the following command:
 
 ```sh
 npm run pub
 ```
+
+Ensure you have updated the version in `package.json` and are logged into npm.
 
 ## Folder tree
 
@@ -43,26 +44,24 @@ npm run pub
 |   .prettierignore
 |   .prettierrc.json
 |   jest.config.ts
-|   junit.xml
 |   LICENSE
 |   main.ts
 |   package-lock.json
 |   package.json
 |   README.md
-|   tree.txt
 |   tsconfig.json
-|   tsconfig.paths.json
+|
++---debug
+    +---main.ts
+    +---package-lock.json
+    +---package.json
 |
 +---src
-    |   tree.txt
-    |
-    +---functions
-    |       hello.test.ts
-    |       hello.ts
-    |
+|   +---functions
+        hello.test.ts
+        hello.ts
     +---libs
-    |       .gitkeep
-    |
+        .gitkeep
     +---models
-            hello.model.ts
+        hello.model.ts
 ```
