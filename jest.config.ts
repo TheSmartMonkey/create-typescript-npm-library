@@ -10,7 +10,7 @@ export default {
     '@libs/(.*)': '<rootDir>/src/libs/$1',
     '@models/(.*)': '<rootDir>/src/models/$1',
   },
-  reporters: ['default', 'jest-junit'],
+  reporters: ['default'],
   roots: ['<rootDir>'],
   testEnvironment: 'node',
   transform: {
@@ -18,12 +18,6 @@ export default {
       'ts-jest',
       {
         isolatedModules: true,
-      },
-    ],
-    '\\.html?$': [
-      'esbuild-jest',
-      {
-        loader: { '.html': 'text' }, // see https://esbuild.github.io/content-types/
       },
     ],
   },
